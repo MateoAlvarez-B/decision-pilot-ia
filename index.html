@@ -1,2 +1,71 @@
-<!-- Pendiente de completar -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Pilot IA - Estructurador de Decisiones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Decision Pilot IA</h1>
+        <p>Optimiza la toma de decisiones complejas generando prompts estructurados para modelos de inteligencia artificial.</p>
+    </header>
+
+    <main>
+        <section id="case-selection">
+            <label for="selector-caso">Selecciona un escenario de decisión:</label>
+            <select id="selector-caso">
+                <option value="" disabled selected>Escoge una opción...</option>
+                <option value="empresarial">Estrategia Empresarial</option>
+                <option value="tecnico">Desarrollo Técnico</option>
+                <option value="educativo">Diseño Educativo</option>
+                <option value="personal">Gestión Personal</option>
+            </select>
+        </section>
+
+        <section id="input-fields">
+            <div class="field-group">
+                <label for="contexto">Contexto del problema:</label>
+                <textarea id="contexto" placeholder="Describe el entorno y los antecedentes..."></textarea>
+            </div>
+
+            <div class="field-group">
+                <label for="decision">Decisión a tomar:</label>
+                <textarea id="decision" placeholder="¿Qué es exactamente lo que se debe decidir?"></textarea>
+            </div>
+
+            <div class="field-group">
+                <label for="datos">Datos disponibles:</label>
+                <textarea id="datos" placeholder="Cifras, hechos o información clave..."></textarea>
+            </div>
+
+            <div class="field-group">
+                <label for="restricciones">Restricciones y límites:</label>
+                <textarea id="restricciones" placeholder="Presupuesto, tiempo, normativa, etc."></textarea>
+            </div>
+        </section>
+
+        <section id="actions">
+            <button id="btn-generar" class="btn-primary">Generar Prompt Final</button>
+            <button id="btn-copiar" class="btn-secondary">Copiar al Portapapeles</button>
+        </section>
+
+        <section id="result-area">
+            <label for="prompt-generado">Prompt Estructurado:</label>
+            <div id="prompt-generado" class="display-box" contenteditable="false">
+                El prompt generado aparecerá aquí...
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por: <strong>Nombre del Autor</strong></p>
+        <p><a href="https://github.com/tu-usuario/decision-pilot-ia" target="_blank" rel="noopener noreferrer">Ver Repositorio en GitHub</a></p>
+    </footer>
+
+    <script src="prompts.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
