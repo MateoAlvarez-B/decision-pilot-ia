@@ -1,5 +1,7 @@
 # decision-pilot-ia
 
+Hecho por Fernando Beneytez, Miguel Perez, Mateo Álvarez
+
 **Decision Pilot IA** es una herramienta educativa diseñada para transformar situaciones de decisión complejas en prompts estructurados y optimizados para Modelos de Lenguaje Extensos (LLM). 
 
 El objetivo es facilitar el pensamiento crítico y la estructuración de información antes de interactuar con una IA, asegurando resultados más precisos, éticos y accionables.
