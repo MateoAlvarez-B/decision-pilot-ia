@@ -1,1 +1,42 @@
-
+[
+  {
+    "nombre": "Admisión y Becas Universitarias",
+    "descripcion": "Evaluación de candidatos para un programa de ayuda financiera limitada.",
+    "contexto": "Universidad con 500 solicitudes para solo 50 becas de excelencia académica y necesidad económica.",
+    "decisión": "Priorización de la asignación de fondos según mérito, impacto potencial y situación financiera.",
+    "datos": "Notas medias (GPA), ingresos familiares anuales, ensayos de motivación, cartas de recomendación y actividades extracurriculares.",
+    "restricciones": "Presupuesto total de 2M€, cuotas mínimas de diversidad geográfica y cumplimiento de plazos administrativos.",
+    "metricas": "500 candidatos, presupuesto cerrado, ratio de aceptación del 10%.",
+    "advertencia": "Riesgo de sesgos algorítmicos que penalicen perfiles socioeconómicos muy bajos por falta de actividades extracurriculares."
+  },
+  {
+    "nombre": "Tickets de Soporte TI",
+    "descripcion": "Clasificación y priorización de incidencias técnicas en una gran empresa.",
+    "contexto": "Departamento de IT saturado que recibe alertas de sistemas y peticiones de empleados simultáneamente.",
+    "decisión": "Determinar el orden de intervención (SLA) y asignar el técnico con la especialidad adecuada.",
+    "datos": "Rol del usuario afectado, severidad percibida, tiempo de espera actual, sistema afectado y palabras clave del error.",
+    "restricciones": "Tiempo máximo de respuesta de 4 horas para incidencias críticas y 10 técnicos disponibles por turno.",
+    "metricas": "150 tickets diarios, objetivo de resolución en primer contacto del 85%.",
+    "advertencia": "Priorización excesiva de usuarios VIP que puede causar el colapso de procesos críticos de infraestructura de fondo."
+  },
+  {
+    "nombre": "Fraude en E-commerce",
+    "descripcion": "Validación de solicitudes de reembolso y detección de actividad sospechosa.",
+    "contexto": "Tienda online de electrónica con un aumento inusual de reclamaciones por 'paquete vacío' o 'producto dañado'.",
+    "decisión": "Aprobar reembolso automático, solicitar pruebas adicionales o escalar a inspección manual antifraude.",
+    "datos": "Historial de compras del cliente, valor del artículo, peso registrado por la logística, ubicación geográfica y frecuencia de devoluciones.",
+    "restricciones": "Mantener la experiencia de usuario positiva para clientes leales y evitar costes logísticos innecesarios de retorno.",
+    "metricas": "Tasa de devolución actual del 12%, pérdida por fraude estimada en 3% de la facturación mensual.",
+    "advertencia": "Falsos positivos que resulten en la acusación injusta de clientes legítimos, afectando la reputación de la marca."
+  },
+  {
+    "nombre": "Asistente de Documentación Corporativa",
+    "descripcion": "Gestión de consultas sobre normativas internas y políticas de RRHH.",
+    "contexto": "Multinacional con cientos de documentos de políticas que varían según el país y el departamento.",
+    "decisión": "Extraer la norma vigente aplicable a un caso específico y resolver contradicciones entre guías antiguas y nuevas.",
+    "datos": "Repositorio de PDFs de políticas, histórico de consultas legales, convenios colectivos locales y actualizaciones de seguridad laboral.",
+    "restricciones": "Cumplimiento estricto de la normativa de privacidad (GDPR) y prohibición de inventar (alucinar) beneficios no pactados.",
+    "metricas": "300 documentos activos, 50 oficinas internacionales, 10 idiomas soportados.",
+    "advertencia": "Generación de respuestas contradictorias que puedan derivar en problemas legales o reclamaciones sindicales."
+  }
+]
