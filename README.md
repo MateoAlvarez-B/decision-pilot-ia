@@ -46,7 +46,7 @@ Para publicar esta aplicación:
 * **Propósito Educativo:** Está diseñada para el aprendizaje y la prototipación, no para entornos de producción crítica.
 
 ## 👥 Equipo y Autores
-* **Nombre del Autor/Equipo** - [Enlace al perfil de GitHub]
-
+* **Fernando Beneytez, Miguel Perez, Mateo Álvarez** - [Enlace al perfil de GitHub]
+* **URL Pages** - [https://mateoalvarez-b.github.io/decision-pilot-ia/] 
 ---
 *Este proyecto ha sido desarrollado con fines educativos para la asignatura de Sistemas de Información.*
